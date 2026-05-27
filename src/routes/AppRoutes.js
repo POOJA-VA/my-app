@@ -14,10 +14,6 @@ const AppRoutes = () => {
         <Route path="/" element={<Layout />}>
           <Route index element={<Dashboard />} />
           <Route path="employees" element={<Employees />} />
-<<<<<<< HEAD
-=======
-
->>>>>>> 70899ee825bed35c1d7574dc5ddc2baf391ed0fa
           <Route path="projects" element={<Projects />} />
           <Route path="reports" element={<Reports />} />
           <Route path="tasks" element={<Tasks />} />
